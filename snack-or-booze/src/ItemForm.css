@@ -1,0 +1,68 @@
+.ItemForm {
+  background-color: #101010d1;
+  color: #f0f2f5;
+  border: 20px solid rgba(16, 16, 16, 0.63);
+  box-shadow: inset 0 0 0 2px #ffffff;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.ItemForm label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.ItemForm input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+  color: white;
+  font-size: 1.2rem;
+  background-color: #7f858d;
+}
+
+.ItemForm textarea {
+  width: 100%;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  background-color: #7f858d;
+}
+
+.ItemForm select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  color: #ffffffd1;
+  background-color: #7f858d;
+}
+
+.ItemForm button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #83ae80;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.ItemForm button:hover {
+  background-color: #87ff6a;
+  color: #ccc;
+}
