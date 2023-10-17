@@ -1,6 +1,7 @@
 /**
  *"Unroll" a square array into a single array.
  * the original array is not mutated.
+ * Use recursion.
  *
  * @example
  * unroll([
@@ -30,6 +31,19 @@ const unrollRecursion = (squareArray, accuArr = []) => {
   return unrollRecursion(arr, newArr);
 };
 
+/**
+ * "Unroll" a square array into a single array.
+ * the original array is not mutated.
+ * Use a while loop.
+ *
+ * @example
+ * unroll([
+ * [1, 2, 3],
+ * [4, 5, 6],
+ * [7, 8, 9]
+ * ]);
+ * // returns [1, 2, 3, 6, 9, 8, 7, 4, 5]
+ */
 const unrollWhileLoop = (squareArray) => {
   let arr = squareArray.map((row) => [...row]);
   let newArr = [];
